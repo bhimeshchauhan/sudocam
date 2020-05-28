@@ -14,3 +14,11 @@
 > `cd src`\
 > `export FLASK_APP=main.py`\
 > `python -m flask run` or `flask run`
+
+
+
+# Debug
+
+> `cd src/automation`\
+> `chmod +x ./debug.sh`\
+> `sh ./debug.sh`
