@@ -10,4 +10,7 @@
 # Usage
 
 > `source sudocam/bin/activate`\
-> `run flask app`
+> `pip install -r requirements.txt`\
+> `cd src`\
+> `export FLASK_APP=main.py`\
+> `python -m flask run` or `flask run`
