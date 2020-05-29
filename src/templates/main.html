@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    {% if name %}
-        <h1>Hello {{ name }}!</h1>
-    {% else %}
-        <h1>Hello, New World!</h1>
-    {% endif %}
+    <div class="container">
+        <h1 class="heading">Sudoku Solver</h1>
+        {% if name %}
+            <h1>Hello {{ name }}!</h1>
+        {% else %}
+            <h1>Hello, New World!</h1>
+        {% endif %}
+    </div>
+    <div class="main">
+        <ul class="cards">
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Card Grid Layout</h2>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Card Grid Layout</h2>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
